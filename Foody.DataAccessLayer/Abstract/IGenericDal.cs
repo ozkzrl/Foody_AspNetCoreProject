@@ -5,7 +5,9 @@ namespace Foody.DataAccessLayer.Abstract
         // Metodlar ve parametreler doğru şekilde tanımlanmalıdır
         void Add(T entity);
         void Delete(T entity);
+
+        void Update(T entity);
         T GetById(int id);
-        IEnumerable<T> GetAll();
+        List<T> GetAll();
     }
 }
