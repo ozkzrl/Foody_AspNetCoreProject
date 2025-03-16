@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Foody.PresentationLayer.Models;
+using Microsoft.Extensions.Logging;
+
 
 namespace Foody.PresentationLayer.Controllers;
 

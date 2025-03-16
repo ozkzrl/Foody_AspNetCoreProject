@@ -1,0 +1,8 @@
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.AssemblyInfo.cs
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.RazorAssemblyInfo.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.RazorAssemblyInfo.cs
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net8.0\Foody.PresentationLayer.sourcelink.json

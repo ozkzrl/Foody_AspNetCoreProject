@@ -1,12 +1,11 @@
-public interface  IGenericDal<T> where T : class
+namespace Foody.DataAccessLayer.Abstract
 {
-    void Insert(T, entity);
-    void Update(T, entity);
-    void delete(int id);
-
-    List<T> GetAll(); 
-
-    T GetById(int id);
-
-    
+    public interface IGenericDal<T>
+    {
+        // Metodlar ve parametreler doğru şekilde tanımlanmalıdır
+        void Add(T entity);
+        void Delete(T entity);
+        T GetById(int id);
+        IEnumerable<T> GetAll();
+    }
 }

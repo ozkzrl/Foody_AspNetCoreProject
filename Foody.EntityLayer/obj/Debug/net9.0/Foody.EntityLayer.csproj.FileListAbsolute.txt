@@ -1,0 +1,5 @@
+C:\Users\binkunduz\Desktop\Foody\Foody.EntityLayer\obj\Debug\net9.0\Foody.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\binkunduz\Desktop\Foody\Foody.EntityLayer\obj\Debug\net9.0\Foody.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.EntityLayer\obj\Debug\net9.0\Foody.EntityLayer.AssemblyInfo.cs
+C:\Users\binkunduz\Desktop\Foody\Foody.EntityLayer\obj\Debug\net9.0\Foody.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.EntityLayer\obj\Debug\net9.0\Foody.EntityLayer.sourcelink.json

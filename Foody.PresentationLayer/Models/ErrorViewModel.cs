@@ -1,4 +1,4 @@
-namespace Foody.PresentationLayer.Models;
+#nullable enable
 
 public class ErrorViewModel
 {
