@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Foody.EntityLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3932e10eec980d98580583a1db6cb3c8d452c22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72bcfdcd2b31699fc6d207e27d9872290208faf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Foody.EntityLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Foody.EntityLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
