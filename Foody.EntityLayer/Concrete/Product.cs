@@ -1,4 +1,6 @@
 namespace Foody.EntityLayer.Concrete
+
+#pragma warning restore format
 {
     public class Product
     {
