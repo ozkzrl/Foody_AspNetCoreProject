@@ -25,12 +25,6 @@ public class GenericRepository<T> : IGenericDal<T> where T : class
         _context.SaveChanges();
     }
 
-    public void Delete(T entity)
-    {
-        var value=_context.Set<T>().Find();
-        _context.Set<T>().Remove(value);
-        _context.SaveChanges();
-    }
 
     public List<T> GetAll()
     {
@@ -41,5 +35,15 @@ public class GenericRepository<T> : IGenericDal<T> where T : class
     public T GetById(int id)
     {
        return _context.Set<T>().Find(id);
+    }
+
+    public void Delete(int id)
+    {
+        var entity = _context.Set<T>().Find(id);
+    if (entity != null)
+    {
+        _context.Set<T>().Remove(entity);
+        _context.SaveChanges();
+    }
     }
 }

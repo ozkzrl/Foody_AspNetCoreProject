@@ -1669,10 +1669,7 @@
           "Foody.EntityLayer": "1.0.0"
         },
         "runtime": {
-          "Foody.BusinessLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Foody.BusinessLayer.dll": {}
         }
       },
       "Foody.DataAccessLayer/1.0.0": {
@@ -1682,18 +1679,12 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "runtime": {
-          "Foody.DataAccessLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Foody.DataAccessLayer.dll": {}
         }
       },
       "Foody.EntityLayer/1.0.0": {
         "runtime": {
-          "Foody.EntityLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Foody.EntityLayer.dll": {}
         }
       }
     }
