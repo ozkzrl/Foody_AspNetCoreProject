@@ -8,27 +8,27 @@ public class FeatureManager : IFeatureService
 
     }
     
-    public void Add(Feature entity)
+    public void TAdd(Feature entity)
     {
         _featureDal.Add(entity);
     }
 
-    public void Delete(int id)
+    public void TDelete(int id)
     {
         _featureDal.Delete(id);
     }
 
-    public List<Feature> GetAll()
+    public List<Feature> TGetAll()
     {
         return _featureDal.GetAll();
     }
 
-    public Feature GetById(int id)
+    public Feature TGetById(int id)
     {
         return _featureDal.GetById(id);
     }
 
-    public void Update(Feature entity)
+    public void TUpdate(Feature entity)
     {
         _featureDal.Update(entity);
     }

@@ -9,27 +9,27 @@ public class ProductManager : IProductService
         _productDal=productDal;
     }
 
-    public void Add(Product entity)
+    public void TAdd(Product entity)
     {
         _productDal.Add(entity);
     }
 
-    public void Delete(int id)
+    public void TDelete(int id)
     {
         _productDal.Delete(id);
     }
 
-    public List<Product> GetAll()
+    public List<Product> TGetAll()
     {
         return _productDal.GetAll();
     }
 
-    public Product GetById(int id)
+    public Product TGetById(int id)
     {
         return _productDal.GetById(id);
     }
 
-    public void Update(Product entity)
+    public void TUpdate(Product entity)
     {
         _productDal.Update(entity);
     }

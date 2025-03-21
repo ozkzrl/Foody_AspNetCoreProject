@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-public class _HeadLayoutComponrntPartial:ViewComponent
+public class _HeadLayoutComponentPartial:ViewComponent
 {
 
     public IViewComponentResult Invoke()

@@ -10,27 +10,27 @@ public class CategoryManager : ICategoryService
     }
 
     
-    public void Add(Category entity)
+    public void TAdd(Category entity)
     {
         _categoryDal.Add(entity);
     }
 
-    public void Delete(int id)
+    public void TDelete(int id)
     {
         _categoryDal.Delete(id);
     }
 
-    public List<Category> GetAll()
+    public List<Category> TGetAll()
     {
         return _categoryDal.GetAll();
     }
 
-    public Category GetById(int id)
+    public Category TGetById(int id)
     {
         return _categoryDal.GetById(id);
     }
 
-    public void Update(Category entity)
+    public void TUpdate(Category entity)
     {
         _categoryDal.Update(entity);
     }

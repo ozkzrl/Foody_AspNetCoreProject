@@ -11,27 +11,27 @@ public class SliderManager : ISliderService
         
     }
 
-    public void Add(Slider entity)
+    public void TAdd(Slider entity)
     {
         _sliderDal.Add(entity);
     }
 
-    public void Delete(int id)
+    public void TDelete(int id)
     {
         _sliderDal.Delete(id);
     }
 
-    public List<Slider> GetAll()
+    public List<Slider> TGetAll()
     {
         return _sliderDal.GetAll();
     }
 
-    public Slider GetById(int id)
+    public Slider TGetById(int id)
     {
         return _sliderDal.GetById(id);
     }
 
-    public void Update(Slider entity)
+    public void TUpdate(Slider entity)
     {
          _sliderDal.Update(entity);
     }

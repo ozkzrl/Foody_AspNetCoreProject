@@ -9,27 +9,27 @@ public class SocialMediaManager : ISocialMediaService
         _socialMediaDal=socialMediaDal;
     }
     
-    public void Add(SocialMedia entity)
+    public void TAdd(SocialMedia entity)
     {
         throw new NotImplementedException();
     }
 
-    public void Delete(int id)
+    public void TDelete(int id)
     {
         throw new NotImplementedException();
     }
 
-    public List<SocialMedia> GetAll()
+    public List<SocialMedia> TGetAll()
     {
         throw new NotImplementedException();
     }
 
-    public SocialMedia GetById(int id)
+    public SocialMedia TGetById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public void Update(SocialMedia entity)
+    public void TUpdate(SocialMedia entity)
     {
         throw new NotImplementedException();
     }

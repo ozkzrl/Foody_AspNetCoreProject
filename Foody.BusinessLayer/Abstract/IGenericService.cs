@@ -1,11 +1,11 @@
 public interface IGenericService<T> where T : class
 {
 
-  void Add(T entity);
-  void Delete(int id);
+  void TAdd(T entity);
+  void TDelete(int id);
 
-  void Update(T entity);
-  T GetById(int id);
-  List<T> GetAll();
+  void TUpdate(T entity);
+  T TGetById(int id);
+  List<T> TGetAll();
 
 }

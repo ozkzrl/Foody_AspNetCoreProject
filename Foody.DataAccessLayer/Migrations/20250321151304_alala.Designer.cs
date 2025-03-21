@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Foody.DataAccessLayer.Migrations
 {
     [DbContext(typeof(FoodyContext))]
-    [Migration("20250316125028_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250321151304_alala")]
+    partial class alala
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
