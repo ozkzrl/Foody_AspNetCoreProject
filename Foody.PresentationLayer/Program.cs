@@ -37,6 +37,6 @@ app.UseStaticFiles(); // Statik dosyalar için gerekli
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=AdminLayout}/{action=Index}/{id?}");
+    pattern: "{controller=Categories}/{action=CategoryList}/{id?}");
 
 app.Run();

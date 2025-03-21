@@ -15,7 +15,5 @@ public class CategoriesController : Controller
     {
         var values=_categoryService.TGetAll();
         return View(values);
-
     }
-
 }

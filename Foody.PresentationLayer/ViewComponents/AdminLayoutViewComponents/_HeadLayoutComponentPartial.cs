@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 
-public class _HeadLayoutComponentPartial:ViewComponent
+namespace Foody.ViewComponents
 {
-
-    public IViewComponentResult Invoke()
+    [ViewComponent]
+    public class _HeadLayoutComponentPartial : ViewComponent
     {
-        return View();
+        public IViewComponentResult Invoke()
+        {
+            return View(); // View'in adını buraya yazabilirsiniz, ya da bir model ile de dönebilirsiniz
+        }
     }
-
 }

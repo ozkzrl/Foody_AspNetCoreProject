@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-public class _MainPanelLayoutComponentPartial:ViewComponent
+namespace Foody.ViewComponents
 {
-    public IViewComponentResult Invoke()
+    [ViewComponent]
+    public class _MainPanelLayoutComponentPartial : ViewComponent
     {
-        return View();
+        public IViewComponentResult Invoke()
+        {
+            return View(); // View'in adını buraya yazabilirsiniz, ya da bir model ile de dönebilirsiniz
+        }
     }
-
 }
 
