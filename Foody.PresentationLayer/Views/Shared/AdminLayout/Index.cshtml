@@ -9,13 +9,14 @@
 <body>
 	<div class="wrapper">
 
+		@await Component.InvokeAsync("_HeadLayoutComponentPartial")
 		
 		@await Component.InvokeAsync("_SidebarLayoutComponentPartial")
 
 
 		@await Component.InvokeAsync("_MainPanelLayoutComponentPartial")
-			
-			@RenderBody()
+
+		@RenderBody()
 			
 		@await Component.InvokeAsync("_FooterLayoutComponentPartial");
 			
