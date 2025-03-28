@@ -56,13 +56,13 @@
                                         <td>@item.CategoryId</td>
                                         <td>@item.CategoryName</td>
                                         <td>@item.CategoryStatus</td>
-                                        <td><a href="#" btn btn-danger>Delete</a></td>
-                                        <td><a href="#" btn btn-success>Update</a></td>
+                                        <td><a href="/Categories/DeleteCategory/@item.CategoryId" class="btn btn-danger">Delete</a></td>
+                                        <td><a href="/Categories/UpdateCategory/@item.CategoryId" class="btn btn-success">Update</a></td>
                                         </tr>
                                     }
                             </tbody>
                         </table>
-                        <td><a href="Categories/CreateCategory" btn btn-primary>Add New Category</a></td>
+                        <td><a href="/Categories/CreateCategory" class="btn btn-primary">Add New Category</a></td>
                     </div>
                 </div>
             </div>
