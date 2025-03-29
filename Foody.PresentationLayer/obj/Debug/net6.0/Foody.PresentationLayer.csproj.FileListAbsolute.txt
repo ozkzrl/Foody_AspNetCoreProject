@@ -96,3 +96,5 @@ C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\refint
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.pdb
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.genruntimeconfig.cache
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\ref\Foody.PresentationLayer.dll
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Humanizer.dll
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
