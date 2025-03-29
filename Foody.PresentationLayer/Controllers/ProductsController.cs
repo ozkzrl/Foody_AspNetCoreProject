@@ -22,7 +22,9 @@ public class ProductsController : Controller
 
     public IActionResult ProductListWithCategory()
     {
-        return View();
+        
+        var values=_productservice.TProductListWithCategory();
+        return View(values);
 
     }
 

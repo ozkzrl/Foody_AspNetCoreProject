@@ -9,6 +9,11 @@ public class ProductManager : IProductService
         _productDal=productDal;
     }
 
+    public List<Product> TProductListWithCategory()
+    {
+        return _productDal.ProductListWithCategory();
+    }
+
     public void TAdd(Product entity)
     {
         _productDal.Add(entity);
