@@ -55,16 +55,8 @@ public class CategoriesController : Controller
     public IActionResult UpdateCategory(Category category)
     {
 
-        if (ModelState.IsValid)
-        {
-            var existingCategory = _categoryService.TGetById(category.CategoryId); // ID'ye göre kaydı getir
-            if (existingCategory != null)
-            {
-                existingCategory.CategoryName = category.CategoryName; // Kategori adını güncelle
-                _categoryService.TUpdate(existingCategory); // Güncelleme işlemini gerçekleştir
-            }
-            return RedirectToAction("CategoryList");
-        }
-        return View(category); // Model geçersizse tekrar formu göster
+       _categoryService.TUpdate(category);
+       return RedirectToAction("CategoryList");
+
     }
 }
