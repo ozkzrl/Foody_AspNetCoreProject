@@ -11,7 +11,8 @@ builder.Services.AddDbContext<FoodyContext>();
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 
-
+builder.Services.AddScoped<IProductDal, EfProductDal>();
+builder.Services.AddScoped<IProductService, ProductManager>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -37,6 +38,6 @@ app.UseStaticFiles(); // Statik dosyalar için gerekli
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Categories}/{action=CategoryList}/{id?}");
+    pattern: "{controller=Products}/{action=ProductList}/{id?}");
 
 app.Run();

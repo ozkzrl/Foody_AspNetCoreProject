@@ -6,6 +6,7 @@ C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.PresentationLayer.runtimeconfig.json
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.PresentationLayer.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.PresentationLayer.pdb
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Humanizer.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -16,6 +17,7 @@ C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Micros
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -96,5 +98,3 @@ C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\refint
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.pdb
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.genruntimeconfig.cache
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\ref\Foody.PresentationLayer.dll
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Humanizer.dll
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
