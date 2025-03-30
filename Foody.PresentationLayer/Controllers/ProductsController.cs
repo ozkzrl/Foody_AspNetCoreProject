@@ -3,16 +3,18 @@
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 public class ProductsController : Controller
 {
 
 
     private readonly IProductService _productservice;
-
-    public ProductsController(IProductService productService)
+    private readonly ICategoryService _categoryservice;
+    public ProductsController(IProductService productService, ICategoryService categoryService)
     {
         _productservice=productService;
+        _categoryservice = categoryService;
     }
     public IActionResult ProductList()
     {
@@ -36,6 +38,8 @@ public class ProductsController : Controller
 
     public IActionResult CreateProduct()
     {
+        var values= _categoryservice.TGetAll();
+        ViewBag.categories= new SelectList(values, "CategoryId", "CategoryName");
         return View();
 
     }
