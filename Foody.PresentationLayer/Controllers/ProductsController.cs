@@ -36,6 +36,7 @@ public class ProductsController : Controller
         return RedirectToAction("ProductListWithCategory");
     }
 
+    [HttpGet]
     public IActionResult CreateProduct()
     {
         var values= _categoryservice.TGetAll();
@@ -44,5 +45,12 @@ public class ProductsController : Controller
 
     }
 
+    [HttpPost]
+    public IActionResult CreateProduct(Product product)
+    {
+        _productservice.TAdd(product);
+        return RedirectToAction("ProductListWithCategory");
+
+    }
 
 }
