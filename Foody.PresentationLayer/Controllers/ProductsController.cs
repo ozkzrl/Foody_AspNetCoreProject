@@ -25,6 +25,18 @@ public class ProductsController : Controller
         
         var values=_productservice.TProductListWithCategory();
         return View(values);
+    }
+
+    public IActionResult DeleteProduct(int id)
+    {
+
+        _productservice.TDelete(id);
+        return RedirectToAction("ProductListWithCategory");
+    }
+
+    public IActionResult CreateProduct()
+    {
+        return View();
 
     }
 

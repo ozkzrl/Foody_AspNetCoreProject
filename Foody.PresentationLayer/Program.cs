@@ -38,6 +38,6 @@ app.UseStaticFiles(); // Statik dosyalar için gerekli
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Products}/{action=ProductListWithCategory}/{id?}");
+    pattern: "{controller=Products}/{action=CreateProduct}/{id?}");
 
 app.Run();
