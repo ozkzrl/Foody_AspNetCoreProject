@@ -53,4 +53,22 @@ public class ProductsController : Controller
 
     }
 
+    [HttpGet]
+    public IActionResult UpdateProduct(int id)
+    {
+        var values=_categoryservice.TGetAll();
+        ViewBag.categories=new SelectList(values, "CategoryId", "CategoryName");
+        var productValues=_productservice.TGetById(id);
+        return View(productValues);
+
+    }
+
+    [HttpPost]
+    public IActionResult UpdateProduct(Product product)
+    {
+        	_productservice.TUpdate(product);
+            return RedirectToAction("ProductListWithCategory");
+
+    }
+
 }
