@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddAutoMapper(typeof(GeneralMapping));
+
+
 builder.Services.AddDbContext<FoodyContext>();
 
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();

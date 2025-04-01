@@ -6,10 +6,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Foody.BusinessLayer\Foody.BusinessLayer.csproj" />
+    <ProjectReference Include="..\Foody.DtoLayer\Foody.Dtolayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+  
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.26">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

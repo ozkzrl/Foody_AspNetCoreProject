@@ -1,9 +1,13 @@
-public class ResultAboutDto
+namespace Foody.PresentationLayer.Concrete
 {
-    public int AboutId { get; set; }
-
-    public string? Title { get; set; }
-
-    public string? Description { get; set; }
-
+    public class ResultAboutDto
+    {
+        public int AboutId { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+    }
 }
+   
+   
+
+
