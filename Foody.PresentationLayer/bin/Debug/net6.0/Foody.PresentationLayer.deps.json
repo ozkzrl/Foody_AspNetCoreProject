@@ -10,7 +10,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Foody.BusinessLayer": "1.0.0",
-          "Foody.Dtolayer": "1.0.0",
+          "Foody.DtoLayer": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "2.3.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.26"
         },
@@ -1728,12 +1728,12 @@
           "Foody.DataAccessLayer.dll": {}
         }
       },
-      "Foody.Dtolayer/1.0.0": {
+      "Foody.DtoLayer/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
         },
         "runtime": {
-          "Foody.Dtolayer.dll": {}
+          "Foody.DtoLayer.dll": {}
         }
       },
       "Foody.EntityLayer/1.0.0": {
@@ -3012,7 +3012,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Foody.Dtolayer/1.0.0": {
+    "Foody.DtoLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

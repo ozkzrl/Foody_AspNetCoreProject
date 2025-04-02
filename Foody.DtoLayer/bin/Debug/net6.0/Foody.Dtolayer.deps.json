@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Foody.Dtolayer/1.0.0": {
+      "Foody.DtoLayer/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
         },
         "runtime": {
-          "Foody.Dtolayer.dll": {}
+          "Foody.DtoLayer.dll": {}
         }
       },
       "AutoMapper/12.0.1": {
@@ -73,7 +73,7 @@
     }
   },
   "libraries": {
-    "Foody.Dtolayer/1.0.0": {
+    "Foody.DtoLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

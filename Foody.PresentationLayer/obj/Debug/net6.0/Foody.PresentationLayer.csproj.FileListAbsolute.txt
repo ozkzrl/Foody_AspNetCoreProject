@@ -77,10 +77,10 @@ C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\runtim
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.BusinessLayer.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.DataAccessLayer.dll
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.Dtolayer.dll
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.DtoLayer.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.EntityLayer.dll
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.BusinessLayer.pdb
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.Dtolayer.pdb
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.DtoLayer.pdb
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.DataAccessLayer.pdb
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.EntityLayer.pdb
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.csproj.AssemblyReference.cache

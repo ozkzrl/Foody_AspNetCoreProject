@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Foody.BusinessLayer\Foody.BusinessLayer.csproj" />
-    <ProjectReference Include="..\Foody.DtoLayer\Foody.Dtolayer.csproj" />
+    <ProjectReference Include="..\Foody.DtoLayer\Foody.DtoLayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -3201,17 +3201,17 @@
           "bin/placeholder/Foody.DataAccessLayer.dll": {}
         }
       },
-      "Foody.Dtolayer/1.0.0": {
+      "Foody.DtoLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
         },
         "compile": {
-          "bin/placeholder/Foody.Dtolayer.dll": {}
+          "bin/placeholder/Foody.DtoLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Foody.Dtolayer.dll": {}
+          "bin/placeholder/Foody.DtoLayer.dll": {}
         }
       },
       "Foody.EntityLayer/1.0.0": {
@@ -8922,10 +8922,10 @@
       "path": "../Foody.DataAccessLayer/Foody.DataAccessLayer.csproj",
       "msbuildProject": "../Foody.DataAccessLayer/Foody.DataAccessLayer.csproj"
     },
-    "Foody.Dtolayer/1.0.0": {
+    "Foody.DtoLayer/1.0.0": {
       "type": "project",
-      "path": "../Foody.DtoLayer/Foody.Dtolayer.csproj",
-      "msbuildProject": "../Foody.DtoLayer/Foody.Dtolayer.csproj"
+      "path": "../Foody.DtoLayer/Foody.DtoLayer.csproj",
+      "msbuildProject": "../Foody.DtoLayer/Foody.DtoLayer.csproj"
     },
     "Foody.EntityLayer/1.0.0": {
       "type": "project",
@@ -8937,7 +8937,7 @@
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Foody.BusinessLayer >= 1.0.0",
-      "Foody.Dtolayer >= 1.0.0",
+      "Foody.DtoLayer >= 1.0.0",
       "Microsoft.AspNetCore.Mvc >= 2.3.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.26"
     ]
@@ -8970,8 +8970,8 @@
             "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.BusinessLayer\\Foody.BusinessLayer.csproj": {
               "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.BusinessLayer\\Foody.BusinessLayer.csproj"
             },
-            "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj": {
-              "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj"
+            "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj"
             }
           }
         }

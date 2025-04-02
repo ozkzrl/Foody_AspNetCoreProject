@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PWLQwcNc2iUO3VajC/y3FwocJ/gYZqOjV/K0SNVH3YS9Gv/DL068GjhZixtbxBxKuyxHowDxFIh3Ejh+fc8vAA==",
+  "dgSpecHash": "KTQsM+lKcdiGcf3ct665V7bjV7pFRIETneBhRBGWp0bmLkOHLTTUm4ViAU+T1cBUx5ZBTfTm3ON9haurIagcEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj",
+  "projectFilePath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\binkunduz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\binkunduz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

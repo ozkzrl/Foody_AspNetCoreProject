@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.AspNetCore.Mvc;
+using System.Reflection;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,12 @@ builder.Services.AddScoped<ICategoryService, CategoryManager>();
 
 builder.Services.AddScoped<IProductDal, EfProductDal>();
 builder.Services.AddScoped<IProductService, ProductManager>();
+
+builder.Services.AddScoped<ISliderDal, EfSliderDal>();
+builder.Services.AddScoped<ISliderService, SliderManager>();
+
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -41,6 +48,6 @@ app.UseStaticFiles(); // Statik dosyalar için gerekli
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Products}/{action=UpdateProduct}/{id?}");
+    pattern: "{controller=Sliders}/{action=SliderList}/{id?}");
 
 app.Run();

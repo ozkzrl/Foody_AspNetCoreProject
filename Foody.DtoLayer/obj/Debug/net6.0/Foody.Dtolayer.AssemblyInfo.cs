@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Foody.Dtolayer")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Foody.DtoLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Foody.Dtolayer")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Foody.Dtolayer")]
+[assembly: System.Reflection.AssemblyProductAttribute("Foody.DtoLayer")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Foody.DtoLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.

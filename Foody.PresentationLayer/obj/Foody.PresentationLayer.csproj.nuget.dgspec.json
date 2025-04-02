@@ -137,12 +137,12 @@
         }
       }
     },
-    "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj": {
+    "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj",
-        "projectName": "Foody.Dtolayer",
-        "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj",
+        "projectUniqueName": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj",
+        "projectName": "Foody.DtoLayer",
+        "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj",
         "packagesPath": "C:\\Users\\binkunduz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -274,8 +274,8 @@
               "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.BusinessLayer\\Foody.BusinessLayer.csproj": {
                 "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.BusinessLayer\\Foody.BusinessLayer.csproj"
               },
-              "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj": {
-                "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.Dtolayer.csproj"
+              "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\binkunduz\\Desktop\\Foody\\Foody.DtoLayer\\Foody.DtoLayer.csproj"
               }
             }
           }
