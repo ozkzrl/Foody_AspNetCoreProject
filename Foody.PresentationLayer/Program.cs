@@ -21,6 +21,10 @@ builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<ISliderDal, EfSliderDal>();
 builder.Services.AddScoped<ISliderService, SliderManager>();
 
+builder.Services.AddScoped<IAboutdal, EfAboutDal>();
+builder.Services.AddScoped<IAboutService, AboutManager>();
+
+
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 
@@ -48,6 +52,6 @@ app.UseStaticFiles(); // Statik dosyalar için gerekli
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Sliders}/{action=SliderList}/{id?}");
+    pattern: "{controller=Abouts}/{action=CreateAbout}/{id?}");
 
 app.Run();

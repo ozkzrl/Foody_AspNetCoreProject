@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/binkunduz/Desktop/Foody/Foody.PresentationLayer/Views/Abouts/AboutList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXEFib3V0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/binkunduz/Desktop/Foody/Foody.PresentationLayer/Views/Abouts/CreateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXENyZWF0ZUFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/binkunduz/Desktop/Foody/Foody.PresentationLayer/Views/Abouts/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXFVwZGF0ZUFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/binkunduz/Desktop/Foody/Foody.PresentationLayer/Views/Categories/CategoryList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDYXRlZ29yeUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
