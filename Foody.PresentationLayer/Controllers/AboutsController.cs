@@ -3,6 +3,7 @@ using System.Data.Common;
 using AutoMapper;
 using Foody.DtoLayer.Dtos.AboutDtos;
 using Microsoft.AspNetCore.Mvc;
+using Foody.EntityLayer.Concrete;
 
 public class AboutsController : Controller
 {

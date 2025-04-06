@@ -1,4 +1,6 @@
 
+using Foody.EntityLayer.Concrete;
+
 public class AboutManager : IAboutService
 {
 
@@ -13,6 +15,7 @@ public class AboutManager : IAboutService
     {
         _aboutDal.Add(entity);
     }
+
 
     public void TDelete(int id)
     {
@@ -33,4 +36,5 @@ public class AboutManager : IAboutService
     {
         _aboutDal.Update(entity);
     }
+    
 }

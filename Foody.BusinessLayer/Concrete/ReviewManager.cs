@@ -1,4 +1,6 @@
 
+using Foody.EntityLayer.Concrete;
+
 public class ReviewManager : IReviewService
 {
     private readonly IReviewDal _reviewDal;

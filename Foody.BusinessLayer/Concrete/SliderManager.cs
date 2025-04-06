@@ -1,5 +1,6 @@
 
 using System.ComponentModel;
+using Foody.EntityLayer.Concrete;
 
 public class SliderManager : ISliderService
 {
@@ -10,7 +11,6 @@ public class SliderManager : ISliderService
         _sliderDal=sliderDal;
         
     }
-
     public void TAdd(Slider entity)
     {
         _sliderDal.Add(entity);

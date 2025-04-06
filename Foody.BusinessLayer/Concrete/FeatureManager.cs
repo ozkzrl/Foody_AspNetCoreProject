@@ -1,4 +1,6 @@
 
+using Foody.EntityLayer.Concrete;
+
 public class FeatureManager : IFeatureService
 {
     private readonly IFeatureDal _featureDal;
@@ -12,6 +14,7 @@ public class FeatureManager : IFeatureService
     {
         _featureDal.Add(entity);
     }
+
 
     public void TDelete(int id)
     {
@@ -32,4 +35,5 @@ public class FeatureManager : IFeatureService
     {
         _featureDal.Update(entity);
     }
+
 }

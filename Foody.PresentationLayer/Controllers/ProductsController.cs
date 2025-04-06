@@ -1,21 +1,20 @@
-
-
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Foody.EntityLayer.Concrete;
 
 public class ProductsController : Controller
 {
-
-
     private readonly IProductService _productservice;
     private readonly ICategoryService _categoryservice;
+
     public ProductsController(IProductService productService, ICategoryService categoryService)
     {
         _productservice=productService;
         _categoryservice = categoryService;
     }
+
     public IActionResult ProductList()
     {
         var values =_productservice.TGetAll();
@@ -31,7 +30,6 @@ public class ProductsController : Controller
 
     public IActionResult DeleteProduct(int id)
     {
-
         _productservice.TDelete(id);
         return RedirectToAction("ProductListWithCategory");
     }
@@ -42,7 +40,6 @@ public class ProductsController : Controller
         var values= _categoryservice.TGetAll();
         ViewBag.categories= new SelectList(values, "CategoryId", "CategoryName");
         return View();
-
     }
 
     [HttpPost]
@@ -50,7 +47,6 @@ public class ProductsController : Controller
     {
         _productservice.TAdd(product);
         return RedirectToAction("ProductListWithCategory");
-
     }
 
     [HttpGet]
@@ -60,7 +56,6 @@ public class ProductsController : Controller
         ViewBag.categories=new SelectList(values, "CategoryId", "CategoryName");
         var productValues=_productservice.TGetById(id);
         return View(productValues);
-
     }
 
     [HttpPost]
@@ -68,7 +63,5 @@ public class ProductsController : Controller
     {
         	_productservice.TUpdate(product);
             return RedirectToAction("ProductListWithCategory");
-
     }
-
 }

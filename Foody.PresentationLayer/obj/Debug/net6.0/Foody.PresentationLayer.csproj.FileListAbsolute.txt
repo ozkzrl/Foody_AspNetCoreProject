@@ -1,3 +1,11 @@
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.AssemblyInfo.cs
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.RazorAssemblyInfo.cache
+C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.RazorAssemblyInfo.cs
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\appsettings.json
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.PresentationLayer.staticwebassets.runtime.json
@@ -83,14 +91,6 @@ C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.DtoLayer.pdb
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.DataAccessLayer.pdb
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\bin\Debug\net6.0\Foody.EntityLayer.pdb
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.csproj.AssemblyReference.cache
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.AssemblyInfoInputs.cache
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.AssemblyInfo.cs
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.csproj.CoreCompileInputs.cache
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.RazorAssemblyInfo.cache
-C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\Foody.PresentationLayer.RazorAssemblyInfo.cs
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\binkunduz\Desktop\Foody\Foody.PresentationLayer\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
